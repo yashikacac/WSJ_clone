@@ -1,0 +1,45 @@
+
+
+.a{
+    /* background-color: blueviolet; */
+    border-right: 0.5px solid rgba(128, 128, 128,0.5);
+}
+.Title-Item{
+    width: 50px;
+
+}
+.NewsTitle{
+    font-weight: 700;
+    text-align: left;
+
+}
+img{
+    align-self: center;
+}
+.item_content{
+    color: rgba(78, 75, 75,0.8);
+    text-align: left;
+}
+#HeadlineTitle{
+    text-align: center;
+}
+.time{
+    color: rgba(78, 75, 75,0.8);
+
+}
+.news_update{
+    color: red;
+}
+.news_duration{
+    text-align: left;
+    font-size: 12px;
+    font-family: sans-serif;
+
+}
+.comments{
+    font-family: sans-serif;
+    color: rgba(78, 75, 75,0.8);
+    text-align: right;
+    font-size:12px;
+
+}

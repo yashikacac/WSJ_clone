@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.vl {
+  border-left: 1px solid rgba(128, 128, 128,0.5);
+  /* height: 500px; */
+}
+.container{
+  /* display: flex; */
+  font-family: 'Old Standard TT', serif;
+  align-items: flex-start;
+  /* height: 160px; */
+}
+Col{
+  display: flex;
+  flex-grow: 4;
+  align-self: baseline; 
+}
+.tabs{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+  font-family: sans-serif;
+  padding-left: 140px;
+
+  color: gray;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.nav-text{
+  padding-right: 25px;
+  text-decoration: none!important;
+  /* color: black; */
+  /* font-size: 13px;
+  font-family: sans-serif; */
+}
+  .search{
+    padding-left: 40px;
+    font-size: 12px;
+  }
+  /* .tabs{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-left: 140px;
+
+    color: gray;
+  } */
+  .search-icon{
+    padding-left: 10px;
+  }
+
+
+.logo{
+padding-left: 40%;
+  color: black;
+  font-family: 'Old Standard TT', serif;
+  font-weight: bold;
+  transform: scaleY(3);
+}
+
+
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

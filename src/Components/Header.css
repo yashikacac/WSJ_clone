@@ -1,0 +1,33 @@
+.Line {
+    border-left: 1px solid rgb(129, 122, 122);
+    height: 22px;
+    position:absolute;
+    top: 21%;
+    align-self: flex-start;
+    /* left: 50%; */
+}
+.Header{
+    display: flex;
+    /* justify-content: flex-end;
+    align-content: flex-end; */
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+/* .user{
+align-content: flex-end;
+} */
+ul{
+    color: gray;
+    display: flex;
+    padding-left:0px ;
+    flex-flow: row wrap;
+    list-style: none;
+    align-items: center;
+    align-self: flex-start;
+
+}
+.Search{
+    align-self: flex-end;
+}
