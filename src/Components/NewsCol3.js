@@ -8,7 +8,7 @@ export default function NewsCol3() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('https://newsapi.org/v2/everything?domains=wsj.com&sortBy=popularity&apiKey=e7f20bf552a84bb495699da6f50080cf').then((result) => {
+    fetch('https://newsapi.org/v2/everything?domains=wsj.com&sortBy=popularity&apiKey=e7f20bf552a84bb495699da6f5008cf').then((result) => {
       result.json().then((resp) => {
         setData(resp.articles)
       })
