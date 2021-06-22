@@ -11,7 +11,7 @@ export default function NewsCol1() {
   const [update, setUpdate] = useState('9 min ago')
 
   useEffect(() => {
-    fetch('https://newsapi.org/v2/everything?sources=bbc-news&apiKey=e7f20bf552a84bb495699da6f50080cf').then((result) => {
+    fetch('https://newsapi.org/v2/everything?sources=bbc-news&apiKey=e7f20bf552a84bb495699da6f5008cf').then((result) => {
       result.json().then((resp) => {
         // console.warn("result",resp)
         setData(resp.articles)
